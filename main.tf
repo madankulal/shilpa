@@ -54,7 +54,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCexamplekey1234567890 user@local"
+    public_key = "SHA256:s9NALYOlpgwVUSzxJCYQpG3acPmq4ybhJ1k56qsa9Fs azureuser@testvm"
   }
 
   os_disk {
