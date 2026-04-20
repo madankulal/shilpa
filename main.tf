@@ -54,7 +54,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = "SHA256:s9NALYOlpgwVUSzxJCYQpG3acPmq4ybhJ1k56qsa9Fs azureuser@testvm"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCUgvafAL7xrKO/mukwGg4GGk1A73bgMJhJjbkGRNzWxGENmuujgjDo3+x4R7XzVTqfx9bkxpZEsck+nU9NUHwp427kYF/jq6bnpP2QzpqEeGZM1xI6JU6X3tTEgSDL1DSnpXXck9GMu90IXDpy71TRsMZqxGYs6Y4ZcHcI0nnfFDRbPHWCKonPcxw2YbsL4tjjYmKnEWiMpZaAK8HrWH5JDv6onl+ZS/AHvSyQOGlbM0wbyUN+GvX34/nwb/BahjYtvJUwB0sPFgfnxRrcwM4199uS3IMzJhk3PW2BaQso1QzNf58HBJx048ZnERvxiLLSer9tiUXZLSR6aWihvvMl azureuser@testvm"
   }
 
   os_disk {
